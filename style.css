@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #10181f; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vw; /* Responsive font size */
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
